@@ -13,8 +13,7 @@ class TasksHome extends StatefulWidget {
 
 class _TasksHomeState extends State<TasksHome> {
   DataProvider dataProvider = DataProvider();
-  int? all = 0;
-  int? done = 0;
+  int? all = 0;  int? done = 0;
   double? percent = 1;
   int _currentIndex = 0;
 
